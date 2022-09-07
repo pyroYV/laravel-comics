@@ -10936,6 +10936,65 @@ main .wrapper2 .nav-item a {
   font-size: 1rem;
 }
 
+#footer-main {
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+#footer-main #logo-bg {
+  right: 160px;
+  top: -50px;
+}
+#footer-main #logo-bg img {
+  height: 400px;
+}
+#footer-main #wrapper3 {
+  max-width: 400px;
+  display: flex;
+  align-items: flex-start;
+  max-height: 400px;
+  flex-flow: column wrap;
+  font-size: 0.7rem;
+  padding: 2rem 0;
+}
+#footer-main #wrapper3 h3, #footer-main #wrapper3 .h3 {
+  font-size: 1.3rem;
+}
+#footer-main #wrapper3 ul {
+  padding: 0;
+}
+#footer-main #wrapper3 ul li a {
+  color: darkgrey;
+}
+
+#footerS {
+  background-color: #303030;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h5, .h5 {
+  color: #0c7cec;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+.sign-up-btn {
+  padding: 1rem;
+  border: 2px solid #0c7cec;
+  color: white;
+  text-decoration: none;
+}
+
 a {
   text-decoration: none;
   color: white;
