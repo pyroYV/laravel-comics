@@ -9,7 +9,25 @@
 </head>
 <body>
     @include('includes.header')
-    @yield('home')
+    <main>
+              <div class="wrapper">
+                  <div class="jumbotron">
+                    <img src="../assets/img/jumbotron.jpg" alt="">
+                  </div>
+                <div class="container-lg">
+                  <div class="comics row position-relative p-3">
+                    <div class="current-series text-center">Current Series</div>
+                    @yield('home')
+                    {{-- <SingleComic class="col-2" v-for="(item, index) in comicsThumbs" :key="index"
+                    :thumb="item.thumb"
+                    :price="item.price"
+                    :series="item.series"
+                    :type="item.type" /> --}}
+                  </div>
+                </div>
+              </div>
+          </main>
+
     @include('includes.footer')
 </body>
 </html>

@@ -10871,7 +10871,29 @@ header nav ul li a {
 }
 header nav ul li:hover {
   border-bottom: 4px solid;
-  border-color: rgb(12, 124, 236);
+  border-color: #0c7cec;
+}
+
+main .wrapper {
+  background-color: #1c1c1c;
+}
+main .wrapper .jumbotron {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .wrapper .jumbotron img {
+  height: 80vh;
+  width: 100%;
+}
+main .wrapper .current-series {
+  background-color: #0c7cec;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.8rem;
+  position: absolute;
+  width: 180px;
+  top: -20px;
+  left: 50px;
 }
 
 a {

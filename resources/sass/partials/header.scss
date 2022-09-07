@@ -26,10 +26,11 @@ header {
                 }
                 &:hover {
                     border-bottom: 4px solid;
-                    border-color: $primaryColor;
+                    border-color: $brand-color;
                 }
 
             }
         }
     }
+
 }

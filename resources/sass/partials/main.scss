@@ -1,0 +1,25 @@
+@import './partials/variables.scss';
+
+main{
+.wrapper{
+    background-color: $bg-color-main;
+    .jumbotron{
+      object-fit: contain;
+      img{
+        height: 80vh;
+        width: 100%;
+      }
+    }
+
+    .current-series{
+      background-color: $brand-color;
+      color: white;
+      text-transform: uppercase;
+      padding: .8rem;
+      position: absolute;
+      width: 180px;
+      top:-20px;
+      left: 50px;
+    }
+  }
+}
