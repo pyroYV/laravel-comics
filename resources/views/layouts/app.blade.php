@@ -17,7 +17,7 @@
                 <div class="container-lg">
                   <div class="comics row position-relative p-3">
                     <div class="current-series text-center">Current Series</div>
-                    @yield('home')
+                    @yield('content')
                     {{-- <SingleComic class="col-2" v-for="(item, index) in comicsThumbs" :key="index"
                     :thumb="item.thumb"
                     :price="item.price"
